@@ -18,6 +18,7 @@
 		F5B61EE71DF9964A00786688 /* Foodtruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B61EE61DF9964A00786688 /* Foodtruck.swift */; };
 		F5B61EE91DF9965000786688 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B61EE81DF9965000786688 /* Product.swift */; };
 		F5B61EEB1DF9965E00786688 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B61EEA1DF9965E00786688 /* Recipe.swift */; };
+		F5B61EED1DF9987100786688 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F5B61EEC1DF9987100786688 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		F5B61EE61DF9964A00786688 /* Foodtruck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foodtruck.swift; sourceTree = "<group>"; };
 		F5B61EE81DF9965000786688 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		F5B61EEA1DF9965E00786688 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		F5B61EEC1DF9987100786688 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		F527EFDB1DF995250059A3F9 = {
 			isa = PBXGroup;
 			children = (
+				F5B61EEC1DF9987100786688 /* .gitignore */,
 				F527EFE61DF995250059A3F9 /* Foodtruck */,
 				F527EFFB1DF995250059A3F9 /* FoodtruckTests */,
 				F527F0061DF995250059A3F9 /* FoodtruckUITests */,
@@ -252,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5B61EED1DF9987100786688 /* .gitignore in Resources */,
 				F527EFF21DF995250059A3F9 /* LaunchScreen.storyboard in Resources */,
 				F527EFEF1DF995250059A3F9 /* Assets.xcassets in Resources */,
 				F527EFED1DF995250059A3F9 /* Main.storyboard in Resources */,
