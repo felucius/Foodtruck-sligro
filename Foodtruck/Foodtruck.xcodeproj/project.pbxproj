@@ -14,6 +14,10 @@
 		F527EFF21DF995250059A3F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F527EFF01DF995250059A3F9 /* LaunchScreen.storyboard */; };
 		F527EFFD1DF995250059A3F9 /* FoodtruckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F527EFFC1DF995250059A3F9 /* FoodtruckTests.swift */; };
 		F527F0081DF995250059A3F9 /* FoodtruckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F527F0071DF995250059A3F9 /* FoodtruckUITests.swift */; };
+		F5B61EE51DF9964200786688 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B61EE41DF9964200786688 /* Category.swift */; };
+		F5B61EE71DF9964A00786688 /* Foodtruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B61EE61DF9964A00786688 /* Foodtruck.swift */; };
+		F5B61EE91DF9965000786688 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B61EE81DF9965000786688 /* Product.swift */; };
+		F5B61EEB1DF9965E00786688 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B61EEA1DF9965E00786688 /* Recipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		F527F0031DF995250059A3F9 /* FoodtruckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodtruckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F527F0071DF995250059A3F9 /* FoodtruckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodtruckUITests.swift; sourceTree = "<group>"; };
 		F527F0091DF995260059A3F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B61EE41DF9964200786688 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		F5B61EE61DF9964A00786688 /* Foodtruck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foodtruck.swift; sourceTree = "<group>"; };
+		F5B61EE81DF9965000786688 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		F5B61EEA1DF9965E00786688 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 		F527EFE61DF995250059A3F9 /* Foodtruck */ = {
 			isa = PBXGroup;
 			children = (
+				F5B61EE31DF9963600786688 /* Domain */,
 				F527EFE71DF995250059A3F9 /* AppDelegate.swift */,
 				F527EFE91DF995250059A3F9 /* ViewController.swift */,
 				F527EFEB1DF995250059A3F9 /* Main.storyboard */,
@@ -123,6 +132,17 @@
 				F527F0091DF995260059A3F9 /* Info.plist */,
 			);
 			path = FoodtruckUITests;
+			sourceTree = "<group>";
+		};
+		F5B61EE31DF9963600786688 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				F5B61EE41DF9964200786688 /* Category.swift */,
+				F5B61EE61DF9964A00786688 /* Foodtruck.swift */,
+				F5B61EE81DF9965000786688 /* Product.swift */,
+				F5B61EEA1DF9965E00786688 /* Recipe.swift */,
+			);
+			name = Domain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +281,10 @@
 			files = (
 				F527EFEA1DF995250059A3F9 /* ViewController.swift in Sources */,
 				F527EFE81DF995250059A3F9 /* AppDelegate.swift in Sources */,
+				F5B61EE91DF9965000786688 /* Product.swift in Sources */,
+				F5B61EEB1DF9965E00786688 /* Recipe.swift in Sources */,
+				F5B61EE51DF9964200786688 /* Category.swift in Sources */,
+				F5B61EE71DF9964A00786688 /* Foodtruck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +527,7 @@
 				F527F00E1DF995260059A3F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F527F00F1DF995260059A3F9 /* Build configuration list for PBXNativeTarget "FoodtruckTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +536,7 @@
 				F527F0111DF995260059A3F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F527F0121DF995260059A3F9 /* Build configuration list for PBXNativeTarget "FoodtruckUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +545,7 @@
 				F527F0141DF995260059A3F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
