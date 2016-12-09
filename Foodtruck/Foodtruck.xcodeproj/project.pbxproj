@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67E0CD76634E8BB759D5FC44 /* Pods_Foodtruck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8660DC2F9BB32624EC38E96F /* Pods_Foodtruck.framework */; };
+		92AF242BB3ED04B1DA9C686D /* Pods_FoodtruckUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21BFF86EA7C2F175F94344A /* Pods_FoodtruckUITests.framework */; };
+		F0F3D51D0B4FC1791078E696 /* Pods_FoodtruckTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3BCB3B70A485FD92EFC126 /* Pods_FoodtruckTests.framework */; };
 		F527EFE81DF995250059A3F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F527EFE71DF995250059A3F9 /* AppDelegate.swift */; };
 		F527EFEA1DF995250059A3F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F527EFE91DF995250059A3F9 /* ViewController.swift */; };
 		F527EFED1DF995250059A3F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F527EFEB1DF995250059A3F9 /* Main.storyboard */; };
@@ -39,6 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0504156BEFF3FB89189E7661 /* Pods-FoodtruckUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodtruckUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodtruckUITests/Pods-FoodtruckUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		49844410FA06C05DFF8035E1 /* Pods-FoodtruckUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodtruckUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodtruckUITests/Pods-FoodtruckUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4A3BCB3B70A485FD92EFC126 /* Pods_FoodtruckTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodtruckTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8660DC2F9BB32624EC38E96F /* Pods_Foodtruck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foodtruck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		952B9AE81FA3309F757C35E2 /* Pods-FoodtruckTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodtruckTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodtruckTests/Pods-FoodtruckTests.release.xcconfig"; sourceTree = "<group>"; };
+		C21BFF86EA7C2F175F94344A /* Pods_FoodtruckUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodtruckUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C285AA5D3B73F6D2E0DB1FAF /* Pods-Foodtruck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodtruck.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Foodtruck/Pods-Foodtruck.debug.xcconfig"; sourceTree = "<group>"; };
+		CB587F9B5721B59FC87FD7A6 /* Pods-Foodtruck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodtruck.release.xcconfig"; path = "Pods/Target Support Files/Pods-Foodtruck/Pods-Foodtruck.release.xcconfig"; sourceTree = "<group>"; };
+		CDEB02BAFFAB4EE49E72BBAD /* Pods-FoodtruckTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodtruckTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodtruckTests/Pods-FoodtruckTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F527EFE41DF995250059A3F9 /* Foodtruck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodtruck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F527EFE71DF995250059A3F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F527EFE91DF995250059A3F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67E0CD76634E8BB759D5FC44 /* Pods_Foodtruck.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0F3D51D0B4FC1791078E696 /* Pods_FoodtruckTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92AF242BB3ED04B1DA9C686D /* Pods_FoodtruckUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B937FDDD2E512CBA81BEF52A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8660DC2F9BB32624EC38E96F /* Pods_Foodtruck.framework */,
+				4A3BCB3B70A485FD92EFC126 /* Pods_FoodtruckTests.framework */,
+				C21BFF86EA7C2F175F94344A /* Pods_FoodtruckUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAE9141CC99A174FE3A6BBEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C285AA5D3B73F6D2E0DB1FAF /* Pods-Foodtruck.debug.xcconfig */,
+				CB587F9B5721B59FC87FD7A6 /* Pods-Foodtruck.release.xcconfig */,
+				CDEB02BAFFAB4EE49E72BBAD /* Pods-FoodtruckTests.debug.xcconfig */,
+				952B9AE81FA3309F757C35E2 /* Pods-FoodtruckTests.release.xcconfig */,
+				0504156BEFF3FB89189E7661 /* Pods-FoodtruckUITests.debug.xcconfig */,
+				49844410FA06C05DFF8035E1 /* Pods-FoodtruckUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F527EFDB1DF995250059A3F9 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +130,8 @@
 				F527EFFB1DF995250059A3F9 /* FoodtruckTests */,
 				F527F0061DF995250059A3F9 /* FoodtruckUITests */,
 				F527EFE51DF995250059A3F9 /* Products */,
+				EAE9141CC99A174FE3A6BBEF /* Pods */,
+				B937FDDD2E512CBA81BEF52A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F527F00C1DF995260059A3F9 /* Build configuration list for PBXNativeTarget "Foodtruck" */;
 			buildPhases = (
+				9D02EF20CB4B580346CF692F /* [CP] Check Pods Manifest.lock */,
 				F527EFE01DF995250059A3F9 /* Sources */,
 				F527EFE11DF995250059A3F9 /* Frameworks */,
 				F527EFE21DF995250059A3F9 /* Resources */,
+				D6F39764D3872389ACD3A87E /* [CP] Embed Pods Frameworks */,
+				747064D21555FC11B9DB6656 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F527F00F1DF995260059A3F9 /* Build configuration list for PBXNativeTarget "FoodtruckTests" */;
 			buildPhases = (
+				D44D466BE53D3A9A41907D35 /* [CP] Check Pods Manifest.lock */,
 				F527EFF41DF995250059A3F9 /* Sources */,
 				F527EFF51DF995250059A3F9 /* Frameworks */,
 				F527EFF61DF995250059A3F9 /* Resources */,
+				1BCBEB07A62CD2016DB4C2A3 /* [CP] Embed Pods Frameworks */,
+				1425A5BDCB1D923E0004913B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -190,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F527F0121DF995260059A3F9 /* Build configuration list for PBXNativeTarget "FoodtruckUITests" */;
 			buildPhases = (
+				7B5EEF84699DE315D47164B6 /* [CP] Check Pods Manifest.lock */,
 				F527EFFF1DF995250059A3F9 /* Sources */,
 				F527F0001DF995250059A3F9 /* Frameworks */,
 				F527F0011DF995250059A3F9 /* Resources */,
+				A65389DB697DBEB1E1CD4C80 /* [CP] Embed Pods Frameworks */,
+				3500EFD25D46BC8BE96F559F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -277,6 +326,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1425A5BDCB1D923E0004913B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodtruckTests/Pods-FoodtruckTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BCBEB07A62CD2016DB4C2A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodtruckTests/Pods-FoodtruckTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3500EFD25D46BC8BE96F559F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodtruckUITests/Pods-FoodtruckUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		747064D21555FC11B9DB6656 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Foodtruck/Pods-Foodtruck-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B5EEF84699DE315D47164B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D02EF20CB4B580346CF692F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A65389DB697DBEB1E1CD4C80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodtruckUITests/Pods-FoodtruckUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D44D466BE53D3A9A41907D35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D6F39764D3872389ACD3A87E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Foodtruck/Pods-Foodtruck-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F527EFE01DF995250059A3F9 /* Sources */ = {
@@ -436,6 +623,7 @@
 		};
 		F527F00D1DF995260059A3F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C285AA5D3B73F6D2E0DB1FAF /* Pods-Foodtruck.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Foodtruck/Info.plist;
@@ -448,6 +636,7 @@
 		};
 		F527F00E1DF995260059A3F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB587F9B5721B59FC87FD7A6 /* Pods-Foodtruck.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Foodtruck/Info.plist;
@@ -460,6 +649,7 @@
 		};
 		F527F0101DF995260059A3F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDEB02BAFFAB4EE49E72BBAD /* Pods-FoodtruckTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -474,6 +664,7 @@
 		};
 		F527F0111DF995260059A3F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 952B9AE81FA3309F757C35E2 /* Pods-FoodtruckTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +679,7 @@
 		};
 		F527F0131DF995260059A3F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0504156BEFF3FB89189E7661 /* Pods-FoodtruckUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = FoodtruckUITests/Info.plist;
@@ -501,6 +693,7 @@
 		};
 		F527F0141DF995260059A3F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49844410FA06C05DFF8035E1 /* Pods-FoodtruckUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = FoodtruckUITests/Info.plist;
