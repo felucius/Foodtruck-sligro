@@ -10,6 +10,7 @@
 		67E0CD76634E8BB759D5FC44 /* Pods_Foodtruck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8660DC2F9BB32624EC38E96F /* Pods_Foodtruck.framework */; };
 		92AF242BB3ED04B1DA9C686D /* Pods_FoodtruckUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C21BFF86EA7C2F175F94344A /* Pods_FoodtruckUITests.framework */; };
 		F0F3D51D0B4FC1791078E696 /* Pods_FoodtruckTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3BCB3B70A485FD92EFC126 /* Pods_FoodtruckTests.framework */; };
+		F524612F1DFAB7A0001FC0C5 /* FoodtruckAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F524612E1DFAB7A0001FC0C5 /* FoodtruckAPI.swift */; };
 		F527EFE81DF995250059A3F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F527EFE71DF995250059A3F9 /* AppDelegate.swift */; };
 		F527EFEA1DF995250059A3F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F527EFE91DF995250059A3F9 /* ViewController.swift */; };
 		F527EFED1DF995250059A3F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F527EFEB1DF995250059A3F9 /* Main.storyboard */; };
@@ -51,6 +52,7 @@
 		C285AA5D3B73F6D2E0DB1FAF /* Pods-Foodtruck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodtruck.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Foodtruck/Pods-Foodtruck.debug.xcconfig"; sourceTree = "<group>"; };
 		CB587F9B5721B59FC87FD7A6 /* Pods-Foodtruck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodtruck.release.xcconfig"; path = "Pods/Target Support Files/Pods-Foodtruck/Pods-Foodtruck.release.xcconfig"; sourceTree = "<group>"; };
 		CDEB02BAFFAB4EE49E72BBAD /* Pods-FoodtruckTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodtruckTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodtruckTests/Pods-FoodtruckTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F524612E1DFAB7A0001FC0C5 /* FoodtruckAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodtruckAPI.swift; sourceTree = "<group>"; };
 		F527EFE41DF995250059A3F9 /* Foodtruck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodtruck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F527EFE71DF995250059A3F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F527EFE91DF995250059A3F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 				F5B61EE61DF9964A00786688 /* Foodtruck.swift */,
 				F5B61EE81DF9965000786688 /* Product.swift */,
 				F5B61EEA1DF9965E00786688 /* Recipe.swift */,
+				F524612E1DFAB7A0001FC0C5 /* FoodtruckAPI.swift */,
 			);
 			name = Domain;
 			sourceTree = "<group>";
@@ -400,7 +403,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		9D02EF20CB4B580346CF692F /* [CP] Check Pods Manifest.lock */ = {
@@ -415,7 +418,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		A65389DB697DBEB1E1CD4C80 /* [CP] Embed Pods Frameworks */ = {
@@ -445,7 +448,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		D6F39764D3872389ACD3A87E /* [CP] Embed Pods Frameworks */ = {
@@ -476,6 +479,7 @@
 				F5B61EEB1DF9965E00786688 /* Recipe.swift in Sources */,
 				F5B61EE51DF9964200786688 /* Category.swift in Sources */,
 				F5B61EE71DF9964A00786688 /* Foodtruck.swift in Sources */,
+				F524612F1DFAB7A0001FC0C5 /* FoodtruckAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
