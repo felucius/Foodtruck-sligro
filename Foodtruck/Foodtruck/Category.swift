@@ -11,25 +11,30 @@ import Foundation
 class Category{
     
     // Fields
+    var ID:String
     var name:String
-    var season:String
-    var isFestival:Bool
-    var products:[Product]
+    var description:String
+    //var season:String
+    //var isFestival:Bool
+    //var products:[Product]
     
     // Constructor
-    init(name:String, season:String, isFestival:Bool){
+    init(ID:String, name:String, description:String){//season:String, isFestival:Bool){
+        self.ID = ID
         self.name = name
-        self.season = season
-        self.isFestival = isFestival
-        self.products = []
+        self.description = description
+        //self.season = season
+        //self.isFestival = isFestival
+        //self.products = []
     }
     
     // Methods
     func addProduct(product: Product){
-        products.append(product);
+        //products.append(product);
     }
     
-    func removeProduct(productID: Int) -> Product{
-        return products.remove(at: productID)
-    }
+    //func removeProduct(productID: Int) -> Product{
+        //return products.remove(at: productID)
+    //    return null
+    //}
 }

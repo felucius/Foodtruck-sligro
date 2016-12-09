@@ -17,6 +17,9 @@
 		F527EFF21DF995250059A3F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F527EFF01DF995250059A3F9 /* LaunchScreen.storyboard */; };
 		F527EFFD1DF995250059A3F9 /* FoodtruckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F527EFFC1DF995250059A3F9 /* FoodtruckTests.swift */; };
 		F527F0081DF995250059A3F9 /* FoodtruckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F527F0071DF995250059A3F9 /* FoodtruckUITests.swift */; };
+		F53014AD1DFAB507005132CD /* TestFoodtruckAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53014AC1DFAB507005132CD /* TestFoodtruckAPI.swift */; };
+		F53014AF1DFAB6D9005132CD /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53014AE1DFAB6D9005132CD /* Categories.swift */; };
+		F53014B11DFAB94B005132CD /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53014B01DFAB94B005132CD /* CategoryCell.swift */; };
 		F5B61EE51DF9964200786688 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B61EE41DF9964200786688 /* Category.swift */; };
 		F5B61EE71DF9964A00786688 /* Foodtruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B61EE61DF9964A00786688 /* Foodtruck.swift */; };
 		F5B61EE91DF9965000786688 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B61EE81DF9965000786688 /* Product.swift */; };
@@ -64,6 +67,9 @@
 		F527F0031DF995250059A3F9 /* FoodtruckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodtruckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F527F0071DF995250059A3F9 /* FoodtruckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodtruckUITests.swift; sourceTree = "<group>"; };
 		F527F0091DF995260059A3F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F53014AC1DFAB507005132CD /* TestFoodtruckAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestFoodtruckAPI.swift; sourceTree = "<group>"; };
+		F53014AE1DFAB6D9005132CD /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		F53014B01DFAB94B005132CD /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		F5B61EE41DF9964200786688 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		F5B61EE61DF9964A00786688 /* Foodtruck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foodtruck.swift; sourceTree = "<group>"; };
 		F5B61EE81DF9965000786688 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
@@ -148,6 +154,7 @@
 		F527EFE61DF995250059A3F9 /* Foodtruck */ = {
 			isa = PBXGroup;
 			children = (
+				F53014AB1DFAB4EC005132CD /* Service */,
 				F5B61EE31DF9963600786688 /* Domain */,
 				F527EFE71DF995250059A3F9 /* AppDelegate.swift */,
 				F527EFE91DF995250059A3F9 /* ViewController.swift */,
@@ -175,6 +182,16 @@
 				F527F0091DF995260059A3F9 /* Info.plist */,
 			);
 			path = FoodtruckUITests;
+			sourceTree = "<group>";
+		};
+		F53014AB1DFAB4EC005132CD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F53014AC1DFAB507005132CD /* TestFoodtruckAPI.swift */,
+				F53014AE1DFAB6D9005132CD /* Categories.swift */,
+				F53014B01DFAB94B005132CD /* CategoryCell.swift */,
+			);
+			name = Service;
 			sourceTree = "<group>";
 		};
 		F5B61EE31DF9963600786688 /* Domain */ = {
@@ -473,7 +490,10 @@
 				F527EFEA1DF995250059A3F9 /* ViewController.swift in Sources */,
 				F527EFE81DF995250059A3F9 /* AppDelegate.swift in Sources */,
 				F5B61EE91DF9965000786688 /* Product.swift in Sources */,
+				F53014AF1DFAB6D9005132CD /* Categories.swift in Sources */,
 				F5B61EEB1DF9965E00786688 /* Recipe.swift in Sources */,
+				F53014B11DFAB94B005132CD /* CategoryCell.swift in Sources */,
+				F53014AD1DFAB507005132CD /* TestFoodtruckAPI.swift in Sources */,
 				F5B61EE51DF9964200786688 /* Category.swift in Sources */,
 				F5B61EE71DF9964A00786688 /* Foodtruck.swift in Sources */,
 			);
